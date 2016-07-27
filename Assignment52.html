@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<title>Assignment 5.2</title>
+
+	
+	</head>
+	
+	<body>
+
+	<script>
+
+			var DDatetime = new Date();
+			var nHour = DDatetime.getHours();
+			var nMinutes = addZero(DDatetime.getMinutes());
+			console.log('The Time Now is :- '+ nHour + ' Hour : ' + nMinutes + ' Minutes');
+			
+			
+			function addZero(i){
+				if (i < 10) {
+					i="0"+ i;
+				}
+				return i
+			}
+		</script>
+
+	</body>
+
+</html>
